@@ -77,7 +77,7 @@ const maMaison:SchemaOffreMaison = {
 <template>
     
     <div class="margin-auto justify-center">
-        
+        <p class="text-3xl text-center">MAISON EN VEDETTES</p>
         <AfficheMaison nom-maison="Maison" :favori="true" image="\public\pexels-binyamin-mellish-106399.jpg"/>
     </div>
     <div class="grid grid-cols-3 gap-4">

@@ -38,10 +38,10 @@ if (route.params.id) {
             <FormKit :config="{
                 classes: {
                     input: 'p-1 rounded border-gray-300 shadow-sm border-2 ',
-                    label: 'text-gray-600 italic',
+                    label: 'text-white italic',
                     outer: 'py-2',
                 },
-            }" type="form"
+            }" type="form" 
              v-model="maison"
               @submit="upsertMaison">
                 <FormKit name="nomMaison" label="Nom de la maison" type="text" />

@@ -15,7 +15,9 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/simple" class="p-2 hover:scale-110 hover:text-black">LA CARD </RouterLink>
       <RouterLink to="/connexion" class="p-2 hover:scale-110 hover:text-black">Connexion</RouterLink>
       <RouterLink to="/maisons" class="p-2 hover:scale-110 hover:text-black">Maison</RouterLink>
-      <RouterLink to="/maisons/edit" class="p-2 hover:scale-110 hover:text-black">AYRTON AJOUUUUUTE GROOOOS</RouterLink>
+      <RouterLink to="/maisons/edit" class="p-2 hover:scale-110 hover:text-black">Ajout Maison</RouterLink>
+      <RouterLink to="/quartier" class="p-2 hover:scale-110 hover:text-black">Quartier</RouterLink>
+      <RouterLink to="/quartier/edit" class="p-2 hover:scale-110 hover:text-black">Ajout Quartier</RouterLink>
     </nav> 
   </header>
 
